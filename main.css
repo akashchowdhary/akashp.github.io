@@ -1,0 +1,210 @@
+body
+{
+color: black;
+background-color:gray;
+}
+
+
+.home h1
+{
+font-size: 50px;
+border-spacing: 50%;
+font-family: 'Permanent Marker', cursive;
+background-color: tomato;
+
+}
+.navigation_bar
+{
+ overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul
+  {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  	font-family: 'Quicksand', sans-serif;
+
+}
+
+li 
+{
+padding: 5px;
+  float: left;
+}
+
+li a 
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+}
+	
+li a:hover
+ {
+  background-color:#333;
+}
+h1
+{
+padding: 150px;
+margin: 0px;
+border-spacing: 50px;
+font-size: 150px;
+text-align: center;
+
+}
+summary
+{
+padding: 50px;
+width: 100%;	
+float:right;
+border: 0px;
+background-color:#CB25FE;
+		  	font-family: 'Quicksand', sans-serif;
+
+}
+
+img
+ {
+ 	float: left;
+    border-radius: 45%;
+    margin:50px;
+}
+.summary p{
+	font-size: 25px;
+}
+.skills
+{
+	background-color: tomato;
+}
+.skillbar  div
+{
+width: 50%;
+}
+
+.container
+{
+width: 100%;
+background-color:lightgrey;
+border: 0px;
+}
+.skillbar {
+	border-radius: 15px;
+  text-align: right;
+  padding:10px;
+}
+
+.html 
+{
+	width: 90%;
+	background-color:rgb(0, 206, 209);
+	text-align: center;
+}
+.css {
+	width: 86%; 
+	background-color:rgb(0, 206, 209);
+		text-align: center;
+
+}
+.cpp{
+	width:75%; 
+	background-color:rgb(0, 206, 209);
+		text-align: center;
+
+}
+.c{
+	width: 70%;
+	 background-color:rgb(0, 206, 209);
+	 	text-align: center;
+
+}
+.js{
+	width: 60%;
+	 background-color:rgb(0, 206, 209);
+	 	text-align: center;
+
+}
+.networking{
+	width: 70%;
+	 background-color:rgb(0, 206, 209);
+	 	text-align: center;
+
+}
+.kotlin{
+	width: 67%;
+	 background-color:rgb(0, 206, 209);
+	 	text-align: center;
+
+}
+
+/* Create three unequal columns that floats next to each other */
+.row p{
+	  	font-family: 'Quicksand', sans-serif;
+
+}
+.row h3{
+		  	font-family: 'Quicksand', sans-serif;
+
+}
+.row h4{
+		  	font-family: 'Quicksand', sans-serif;
+
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+
+  width: 25%;
+}
+/* Middle column */
+
+.column.middle {
+
+  width: 50%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.interest
+{
+	background-color: tomato;
+}
+
+.interest p
+{
+	align-content: center;
+font-family: 'Pacifico', cursive;
+
+}
+/* Clear floats after the columns */
+.interestcolumn {
+  float: left;
+  width: 20%;
+  padding: 35px;
+}
+
+/* Clearfix (clear floats) */
+.interest::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
